@@ -1,0 +1,7 @@
+.footerContainer {
+  background-color: rgba(20, 21, 31, 0.507);
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  align-content: center;
+}

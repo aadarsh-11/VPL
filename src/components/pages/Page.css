@@ -1,0 +1,73 @@
+.stimulationContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.pageHeader {
+  text-align: center;
+}
+
+.pageh1 {
+  margin-bottom: 4%;
+  margin-top: 0;
+  font-size: 45px;
+}
+
+.backButton {
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.refresh {
+  width: 0;
+}
+
+.refreshIcon {
+  z-index: 2;
+  left: -64px;
+  background-color: pink;
+}
+
+.right {
+  height: 420px;
+  padding: 40px;
+  background-color: rgba(20, 21, 31, 0.507);
+}
+
+.data {
+  width: 70%;
+  margin: 0 auto 50px;
+  padding: 40px 10px;
+  background-color: rgba(20, 21, 31, 0.507);
+}
+
+iframe {
+  margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .stimulationContainer {
+    flex-direction: column;
+    margin: 0 5%;
+    margin-bottom: 5%;
+  }
+
+  .pageh1 {
+    display: block;
+    margin: 7% 5%;
+    line-height: 1;
+    font-size: 40px;
+  }
+
+  .refresh {
+    width: initial;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .refreshIcon {
+    left: initial;
+  }
+}

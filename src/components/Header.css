@@ -1,0 +1,51 @@
+.header {
+  text-align: center;
+  font-size: x-large;
+}
+
+h1 {
+  line-height: 1.4;
+}
+
+h6 {
+  font-weight: 100;
+  margin: 0;
+}
+
+.btn-container {
+  margin: 2% 0% 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container2 {
+  padding: 0 5%;
+}
+
+.strongColor {
+  color: rgb(197, 17, 98);
+}
+
+.subhead {
+  display: inline-flex;
+}
+.logo {
+  width: 10%;
+  padding: 0 3%;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 23%;
+  }
+}
