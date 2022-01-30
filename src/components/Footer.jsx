@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <div className="footerContainer">
       <p>
-        Made with ❤ by <strong className="strongColor">A&T</strong> |
-        <a href="https://github.com/PrasadDalwee/HCI">
+        Made with ❤ by <strong className="strongColor">Aadarsh Goyal</strong> |
+        <a href="https://github.com/aadarsh-11/VPL">
           <IconButton aria-label="Take Me There ...">
             <GitHubIcon color="secondary" />
           </IconButton>
